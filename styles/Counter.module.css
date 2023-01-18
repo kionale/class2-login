@@ -1,0 +1,52 @@
+.main{
+  min-height: 100vh;
+  display: grid;
+  background-image: radial-gradient(#f11c67, #ac5fa1, 
+#699dd4);
+  
+ 
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3rem;
+   background-color: rgba(255, 255, 255, .15);  
+ backdrop-filter: blur(5px);
+}
+
+.title{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 3rem;
+}
+
+.greeting{
+  font-size: 1.5rem;
+  font-family:Arial, Helvetica, sans-serif;
+  padding: 1.5rem;
+
+
+}
+
+.value{
+font-size: 6rem;
+  font-weight: bold;
+  color:#3943B7;
+}
+
+.button{
+  text-transform: uppercase;
+  background: transparent;
+  color: #0E0E52;
+  padding: 1rem 2rem;
+  display: inline-block;
+  font-size: 1rem;
+  border: 2px solid #3943B7;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  margin: 0.5rem;
+}
